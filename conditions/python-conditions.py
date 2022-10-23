@@ -11,10 +11,10 @@ if sun_is_bright:
     print("Shine Shine and Shine")
 
 if moon_is_cool:
-    print("chill wibes")
+    print("chill vibes")
 
 if earth_diameter > moon_diameter:
-    print("Mother earch is definitely bigger than moon")
+    print("Mother Earth is definitely bigger than moon")
     if sun_is_bright and moon_is_cool:
         print("Blinded by the light")
         sun_is_bright = False
