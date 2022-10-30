@@ -1,4 +1,4 @@
-
+# run command - python3 python-read.py
 
 # https://www.freecodecamp.org/news/how-to-read-files-in-python/
 # https://www.pythontutorial.net/python-basics/python-read-text-file/
