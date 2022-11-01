@@ -13,6 +13,8 @@ fileoperator.write('"A man is but a product of his thoughts. What he thinks he b
 fileoperator.write('\n')
 fileoperator.close()
 
+# ------------------------------------------------------------------------------------------- #
+
 print("2) Write from list of lines")
 
 quotes = ['"The sign of intelligence is that you are constantly wondering. Idiots are always dead sure \
@@ -25,6 +27,8 @@ with open(filename, "a") as fo:
     for quote in quotes:
         fo.write(quote)
         fo.write('\n\n')
+
+# ------------------------------------------------------------------------------------------- #
 
 print("3) Write in one shot")
 

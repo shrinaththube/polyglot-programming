@@ -4,6 +4,7 @@
 # ref - https://www.geeksforgeeks.org/bash-scripting-for-loop/
 # https://linuxhint.com/bash-for-loop-examples/
 # https://www.cyberciti.biz/faq/bash-while-loop/
+# https://linuxhint.com/bash_loop_list_strings/
 
 cool_list=("i" "am" "reading" "all" "elements" "of" "this" "list")
 
