@@ -2,7 +2,7 @@
 # run command - python3 python-datatypes.py
 # https://www.w3schools.com/python/python_datatypes.asp
 
-# Text Type:	str
+# Text Type: str
 print("*"*40)
 print("1) Text type")
 print("*"*40)
@@ -10,7 +10,7 @@ print("*"*40)
 s = "no strings attached"
 print(type(s) , " : ", s)
 
-# Numeric Types:	int, float, complex
+# Numeric Types: int, float, complex
 print("*"*40)
 print("2) Numeric type")
 print("*"*40)
@@ -24,7 +24,7 @@ print(type(pi) , " : ", pi)
 comp = complex(3,5)
 print(type(comp) , " : ", comp)
 
-# Sequence Types:	list, tuple, range
+# Sequence Types: list, tuple, range
 print("*"*40)
 print("3) Sequence type")
 print("*"*40)
@@ -43,7 +43,7 @@ print("*"*40)
 d = {"key": "point", "no" : "way", "get": "on"}
 print(type(d) , " : ", d)
 
-# Set Types:	set, frozenset
+# Set Types: set, frozenset
 print("*"*40)
 print("5) Set type")
 print("*"*40)
@@ -76,7 +76,7 @@ print(type(barr) , " : ", barr)
 m = memoryview(b)
 print(type(m) , " : ", m)
 
-# None Type:	NoneType
+# None Type: NoneType
 print("*"*40)
 print("8) None type")
 print("*"*40)

@@ -14,11 +14,13 @@ import (
 
 func main() {
 
-	// boolean
-	var b bool = true
-	fmt.Println(reflect.TypeOf(b), ":", b)
+	// Text Type: str
+	// strings
+	var s string = "theory of Strings"
+	fmt.Println(reflect.TypeOf(s), ":", s)
 
-	// Numeric
+	// Numeric Types: int, float, complex
+
 	var i int = 101
 	fmt.Println(reflect.TypeOf(i), ":", i)
 
@@ -31,8 +33,25 @@ func main() {
 	var c complex64 = 3 + 5i
 	fmt.Println(reflect.TypeOf(c), ":", c)
 
-	// strings
-	var s string = "theory of Strings"
-	fmt.Println(reflect.TypeOf(s), ":", s)
+	// Sequence Types: array, slices, range
+
+	arr := [4]string{"Get", "in", "the", "array"}
+	fmt.Println(reflect.TypeOf(arr), ":", arr)
+
+	mySlice := []string{"Give", "me", "that", "delicious", "slice"}
+
+	fmt.Println(reflect.TypeOf(mySlice), ":", mySlice)
+
+	// Mapping Type: map
+
+	// Set Types: set, frozenset
+
+	// Boolean Type: bool
+	var b bool = true
+	fmt.Println(reflect.TypeOf(b), ":", b)
+
+	// Binary Types: bytes, bytearray, memoryview
+
+	// None Type: NoneType
 
 }
